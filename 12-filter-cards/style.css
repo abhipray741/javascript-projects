@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+}
+
+.filter-btn-wrapper {
+    display: flex;
+    gap:10px;
+}
+
+.filter-btn-wrapper button {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.content-wrapper .card {
+    width: 32%;
+    padding: 30px;
+    background-color: rgb(0, 251, 255);
+    font-size: 30px;
+}
+.hide {
+    display: none;
+}
